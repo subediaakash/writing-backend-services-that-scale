@@ -1,15 +1,38 @@
-# auth
+Responsibilities:
 
-To install dependencies:
+• User registration
+• Login / Logout
+• OAuth (Google initially)
+• Access Token generation
+• Refresh Token rotation
+• Session validation
+• Token revocation
+• User identity lookup
 
-```bash
-bun install
-```
+Non-responsibilities:
 
-To run:
+• User profile management
+• Business logic
+• Permissions from other services
 
-```bash
-bun run index.ts
-```
+Features : 
+Core Authentication : Email + Password (Signup)
+Core Authentication : Email + Password (Signin)
+Logout
+Token Refresh 
 
-This project was created using `bun init` in bun v1.2.8. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Oauth 
+Google Oauth
+
+Security : 
+Password Hashing
+Rate Limitting 
+CSRF protection 
+Secure Cookies 
+Oauth state validation 
+
+Developer Feature : 
+Token Verification Endpoints
+Health  Check 
+Logging
+
